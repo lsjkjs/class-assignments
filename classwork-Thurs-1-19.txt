@@ -1,0 +1,54 @@
+  474  cd ~
+  475  cd Desktop/eeb-177/
+  476  ls
+  477  cd class-assignments
+  478  touch classwork-Thursday-1-19.txt
+  479  git add classwork-Thursday-1-19.txt
+  480  git status
+  481  git commit classwork-Thursday-1-19.txt
+  482  git commit -m "Add classwork for Thursday-1-19"
+  483  git push
+  484  gedit classwork-Thursday-1-19.txt
+  485  cd ..
+  486  ls
+  487  cd CSB
+  488  ls
+  489  cd unix
+  490  ls
+  491  cd data
+  492  ls
+  493  gedit Marra2014_data.fasta
+  494  ls
+  495  gedit Marra2014_data.fasta
+  496  man wc
+  497  ls
+  498  less temp.csv
+  499  wc -l Marra2014_data.fasta
+  500  cd eeb-177
+  501  cd ../..
+  502  ls
+  503  cd eeb-177
+  504  ls
+  505  cd CSB
+  506  ls
+  507  cd unix
+  508  ls
+  509  cd data
+  510  ls
+  511  wc -l Marra2014_data.fasta
+  512  cd ..
+  513  ls
+  514  cd dat
+  515  cd data
+  516  ls
+  517  touch toremove.txt ../sandbox/
+  518  ls ../sandbox/
+  519  ls -a ../sandbox/
+  520  touch remove.txt ~/Desktop/eeb-177/CSB/unix/sandbox
+  521  ls ~/Desktop/eeb-177/CSB/unix/sandbox/
+  522  touch ~/Desktop/eeb-177/CSB/unix/sandbox/toremove.txt
+  523  ls ~/Desktop/eeb-177/CSB/unix/sandbox/
+  524  rm ~/Desktop/eeb-177/CSB/unix/sandbox/toremove.txt
+  525  ls ~/Desktop/eeb-177/CSB/unix/sandbox/
+  526  history
+  527  history >> ~/Desktop/eeb-177/class-assignments/classwork-Thurs-1-19.txt
