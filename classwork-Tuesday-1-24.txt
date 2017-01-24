@@ -4,3 +4,77 @@ classwork-Tuesday-1-24
 /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt
 /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Thurs-1-19.txt
 /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Thursday-1-19.txt
+
+  869  cd Desktop/eeb-177/class-assignments/
+  870  gedit classwork-Tuesday-1-24.txt
+  871  ls
+  872  gedit classwork-Tuesday-1-24.txt
+  873  git add classwork-Tuesday-1-24.txt 
+  874  git commit -m "added classwork file for Tuesday 1-24"
+  875  git push
+  876  ls
+  877  cd ../CSB/unix/sandbox
+  878  wget http://tinyurl.com/cep-taxa -0 cep-taxa.txt
+  879  ls
+  880  wget http://tinyurl.com/cep-taxa -O cep-taxa.txt
+  881  ls
+  882  less cep-taxa.txt 
+  883  grep orchids cep-taxa.txt 
+  884  grep orchid cep-taxa.txt 
+  885  grep Orchidacea cep-taxa.txt 
+  886  grep -c Orchidacea cep-taxa.txt 
+  887  grep falcon cep-taxa.txt 
+  888  grep Falcon cep-taxa.txt 
+  889  grep -i falcon cep-taxa.txt 
+  890  grep -i ara cep-taxa.txt 
+  891  grep -i -w ara cep-taxa.txt 
+  892  grep -B 2 Cebus cep-taxa.txt 
+  893  grep -B 3 Cebus cep-taxa.txt 
+  894  grep -A 3 Cebus cep-taxa.txt 
+  895  grep -A 5 Cebus cep-taxa.txt 
+  896  grep -B -3 -i -w cebus cep-taxa.txt 
+  897  grep -B 3 -i -w cebus cep-taxa.txt 
+  898  grep -n -i iguanas cep-taxa.txt 
+  899  grep -n -i iguana cep-taxa.txt 
+  900  grep -v -i ara cep-taxa.txt 
+  901  grep -c -v -i ara cep-taxa.txt 
+  902  grep -c -v -i -w -n  ara cep-taxa.txt 
+  903  grep -v -i -w -n  ara cep-taxa.txt 
+  904  find .*
+  905  find .
+  906  ls -l
+  907  ls -la
+  908  find ../data
+  909  find ../data/ | wc -l
+  910  find ../data/ -name "n30.txt"
+  911  find ../data/ -iname *about*
+  912  find /home/eeb177-student/Desktop/eeb-177/class-assignments/ 
+  913  find /home/eeb177-student/Desktop/eeb-177/class-assignments/ -iname *classwork*
+  914  cd /home/eeb177-student/Desktop/eeb-177/class-assignments/
+  915  ls
+  916  less thurs-1-12-2017/
+  917  cd thurs-1-12-2017/
+  918  ls
+  919  find /home/eeb177-student/Desktop/ -iname "*classwork"*
+  920  find /home/eeb177-student/Desktop/ -iname "*classwork"* >> ../classwork-Tuesday-1-24.txt 
+  921  gedit ../classwork-Tuesday-1-24.txt 
+  922  cd ../
+  923  git status
+  924  git add classwork-Tuesday-1-24.txt 
+  925  git commit -m "added the path for files with "classwork" in their names"
+  926  git push
+  927  git status
+  928  git commit -m "added the path for files with "classwork" in their names"
+  929  git push
+  930  find ../data -maxdepth 1 -name "*.txt"
+  931  find ../CSB/unix/data -maxdepth 1 -name "*.txt"
+  932  ls -l
+  933  cd ../CSB/unix/sandbox/
+  934  ls -
+  935  ls -l
+  936  touch permissions.txt
+  937  ls -l
+  938  chmod u=rwx permissions.txt
+  939  ls -l
+  940  history
+  941  history 73 >> ~/Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt 
