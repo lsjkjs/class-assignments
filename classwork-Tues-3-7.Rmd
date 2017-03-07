@@ -1,0 +1,41 @@
+---
+title: "classwork-Tues-3-7.Rmd"
+author: "Jin Sun Kim"
+date: "March 7, 2017"
+output: html_document
+---
+
+```{r}
+library(paleobioDB)
+library(paleotree)
+canids<-pbdb_occurrences (limit="all", vocab="pbdb", base_name="Canidae", show=c())
+
+#graptOccPBDB <- canids
+#dev.new()
+#get data
+data(graptPBDB)
+head(graptOccPBDB)
+
+occSpecies<-taxonSortPBDBocc(graptOccPBDB, rank="species")
+head(occSpecies)
+occGenera <- taxonSortPBDBocc(graptOccPBDB, rank="genus")
+occFamily <- taxonSortPBDBocc(graptOccPBDB, rank = ("family"))
+
+head(occSpecies)
+
+plotOccData(occSpecies,groupLabel = "Species")
+plotOccData(occSpecies,groupLabel = "genus")
+#each color is a different species
+#each range is the range of occurrence data
+#convert occurrence data to "timelist" format
+graptTimeSpecies<-occData2timeList(occList=occSpecies)
+#plot diversity through time
+taxicDivDisc(graptTimeSpecies)
+# is this sampling bias??
+
+taxicDivDisc(graptTimeSpecies)
+```
+
+```{r}
+#function goes through time interval and counts the number of species during that time interval
+
